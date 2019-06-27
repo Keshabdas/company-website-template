@@ -1,0 +1,15 @@
+{
+  "name": "webtemplate",
+  "version": "1.0.0",
+  "description": "Company-Website-Template",
+  "main": "MainJS.js",
+  "scripts": {
+    "deploy": "gh-pages -d Website"
+  },
+  "author": "Keshab Das",
+  "license": "ISC",
+  "homepage": "https://Keshabdas.github.io/company-website-template",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}

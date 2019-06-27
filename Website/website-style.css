@@ -1,0 +1,231 @@
+html{
+	scroll-behavior: smooth;
+}
+body{
+	overflow-x: hidden;
+}
+/*styling for navbar*/
+nav {
+	position: absolute;
+	width: 100%;
+	z-index: 1;
+}
+.navbar {
+	background: transparent;
+	color: #fff;
+}
+.navbar a {
+	text-decoration: none;
+	color: #fff;
+	padding: 10px !important;
+}
+.navbar .nav-link:hover {
+	background-color: #fff;
+	color: #000;
+}
+
+/*styling for id01*/
+#id01{
+	height: 100vh;
+	background-image: url(./images/architecture-blur-bridge-314380.jpg);
+	width: 100%;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.banner {
+	margin-top: 20vh;
+}
+.banner .text{
+	background-color: white;
+	display: inline-block;
+	font-size: 10vh;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 5px;
+	font-family: 'Anton', sans-serif;
+	margin: 0 auto;
+	padding: 10px 20px;
+	/*makes the text transparent*/
+	mix-blend-mode: screen;
+}
+.banner .para{	
+	margin-top: 50px;
+	padding: 0px 50px;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #fff;
+}
+.downward {
+	margin-top: 10%;
+	color: #fff;
+}
+.downward a{
+	text-decoration: none;
+	font-size: 40px;
+	color: #fff;
+}
+
+/*styling for id02*/
+#id02{
+	background-color: teal;
+	padding: 100px;
+	color: white;
+}
+.d-flex {
+	margin-top: 100px;
+}
+.box {
+	background-color: #fff;
+	height: 90px;
+	width: 90px;
+	padding: 15px;
+	margin-right: 50px;
+	font-size: 40px;
+	color: teal;
+	border-radius: 10px;
+	transform: rotate(45deg);
+}
+.box i{
+	transform: rotate(-45deg);
+}
+.box i:hover{
+	transform: rotate(315deg);
+	transition: 1.2s;
+}
+.box:hover{
+	background:transparent;
+	border: 1px solid #fff;
+	color: #fff;
+}
+.Two .row{
+	background-color: #2e3842;
+	width: 100vw;
+}
+.col-md-7 {
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0 20px;
+	text-align: left;
+}
+
+/*id04 styling*/
+#t1 {
+	border-bottom: 2px solid #fff;
+	display: inline-block;
+	font-family: 'Anton', sans-serif;
+	color: #fff;
+	padding-left: 30px;
+	padding-right: 30px; 
+	padding-bottom: 1em;
+}
+.serviceHeader p{
+	padding-top: 1em;
+	color: #fff;
+}
+.fa-paper-plane{
+	padding-top: 10px;
+	font-size: 20px; 
+}
+.service {
+	padding: 50px 10%;
+	background-color: teal;
+} 
+.serviceHeader{
+	padding:  10%;
+}
+.serviceBody {
+	padding: 0px 10%;
+	background-color: teal;
+}
+.serviceBody .col-md-6{
+	color: teal;
+	padding: 10px 0px;
+}
+.serviceBody .col-md-6 #row{
+	background: #eee;
+	padding: 20px 10px;
+	margin: 0px 10px;
+}
+.serviceBody .col-md-6 #row:hover{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*id05 styling*/
+#id05{
+	padding: 70px;
+	background-image: url(architecture-blur-bridge-314380.jpg);
+	width: 100%;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#id05 .col-md-6{
+	font-size: 20px;
+	color: #fff;
+}
+#id05 .col-md-6 h3{
+	font-family: 'Anton', sans-serif;
+}
+#id05 .col-md-6 button{
+	margin: 10px 20px;
+	font-weight: 700;
+	font-size: 20px;
+	text-transform: uppercase;
+	background: transparent;
+	border: 2px solid #fff;
+	border-radius: 3px;
+	color: #fff;
+}
+#id05 .col-md-6 button:hover{
+	color: #fff;
+	background-color: #555;
+}
+#footer {
+	background: #555;
+	padding: 20px;
+	color: #ddd;
+}
+#copy{
+	padding-top: 40px;
+}
+#icons{
+	margin-top: 50px;
+}
+#footer .col-md-12 i{
+	font-size: 30px;
+	padding: 0px 20px;
+}
+/*navbar*/
+.Navbar ul{
+	display: flex;
+	flex-direction: row;
+}
+
+@media screen and (max-width: 480px){
+	.box {
+		background-color: #fff;
+		height: 80px;
+		width: 80px;
+		padding: 10px ;
+		margin-right: 20px;
+		font-size: 35px;
+		color: teal;
+		border-radius: 10px;
+		transform: rotate(0deg);
+	}
+	.box i{
+		transform: rotate(0deg);
+	}
+	/*styling for id05 on small screen*/
+	#id05 {
+		padding: 20px;
+	}	
+}
